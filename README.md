@@ -10,6 +10,7 @@ Ideally...
 1. Events are the driving force ([event-driven](https://martinfowler.com/articles/201701-event-driven.html), [pub/sub model](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern), trigger/action)
 1. Documentation is a first-class citizen.
 1. Live and die with [12-factor](https://12factor.net/)
+1. Services should have a single purpose (do one thing and do it well), be loosely coupled (know little about each other), and have high cohesion (encapsulates all related functionality and data together).
 
 *APIs, events, and docs!*
 
